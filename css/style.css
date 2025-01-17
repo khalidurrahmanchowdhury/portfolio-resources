@@ -183,4 +183,27 @@ main section {
 
 .cv_btn {
     margin-top: 50px;
+    margin-bottom: 120px;
+}
+
+/* footer related style  */
+footer {
+    display: flex;
+    gap: 115px;
+    padding: 130px 230px;
+}
+.footer_column {
+    width: 50%;
+}
+
+footer input[type="text"], footer input[type="email"], footer textarea {
+    height: 64px;
+    border-radius: 5px;
+    color: white;
+    display: block;
+    width: 50%;
+    padding: 10px 20px;
+    font-size: 16px;
+    margin-bottom: 24px;
+    border: none;
 }
