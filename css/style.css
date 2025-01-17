@@ -122,8 +122,6 @@ main {
 }
 main section {
     margin-top: 130px;
-    margin-bottom: 130px;
-    padding: 130px;
 }
 /* about related style started */
 .contnent {
@@ -152,6 +150,37 @@ main section {
     margin-top: 50px;
 }
 .card_content {
-    padding: 15px;
+    padding: 30px;
     box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+}
+
+/* Resume related style started */
+.resume_container {
+    display: flex;
+    gap: 70px;
+}
+
+.resume_colum_title {
+    font-size: 1.8rem;
+    font-weight: 700;
+    color: #474747;
+}
+.experience_title {
+    font-size: 1.5;
+    font-weight: 700;
+    color: #474747;
+    margin-bottom: 0px;
+}
+.experience_subtile {
+    font-size:1.25rem ;
+    font-weight: 600;
+    color: #757575;
+    margin-top: 0px;
+}
+.experience_description {
+    color: #757575;
+}
+
+.cv_btn {
+    margin-top: 50px;
 }
